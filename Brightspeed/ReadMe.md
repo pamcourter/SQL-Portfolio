@@ -10,6 +10,7 @@
 ------------------------------------------
 ![Screenshot of Sales MRR in List Report](..//Brightspeed/Files/sbl_salesdetails.png)
 [Sql sp for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
+
 -----------------------------------------------------------------------------------------------------------------
 ###Report to show product sales with overall quantity and price
 

@@ -3,4 +3,4 @@
 
 [Sql Code](/Files/BRSPD_sql_sps.sql)
 
-![Screenshot of Stats by list report](/Files/sbl_overal_attempts.png)
+![Screenshot of Stats by list report](Brightspeed/Files/sbl_overal_attempts.png)

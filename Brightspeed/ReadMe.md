@@ -1,11 +1,11 @@
 #Brightspeed Outbound Sales reports
 
-###Task- Develop reports to contacts, sales, attempt counts etc for Brightspeed outbound sales.
+###Task-Create reports following specified formatting, to show outbound metrics such as lead count, dials, attempts and sales by list. The most complicated part on this was summing the attempts by day first, so that it shows at the time of the report
 
 [Sql Code](/Brightspeed/Files/BRSPD_sql_sps.sql)
 
 ![Screenshot of Stats by List Report-Overall by list](/Brightspeed/Files/sbl_overal_attempts.png)
-![Screenshot of Stats by List Report-By Day](/Brightspeed/Files/brightspeed listdetails day.png)
+![Screenshot of Stats by List Report-By Day](/Brightspeed/Files/brightspeed_listdetails_day.png)
 ![Screenshot of Sales MBBR in List Report](/Brightspeed/Files/sbl_salesdetails.png)
 
 

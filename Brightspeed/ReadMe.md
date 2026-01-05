@@ -2,8 +2,8 @@
 
 ###Task-Create reports following specified formatting, to show outbound metrics such as lead count, dials, attempts and sales by list. The most complicated part on this was summing the attempts by day first, so that it shows at the time of the report
 
-![Screenshot of Stats by List Report-Overall by list](/Brightspeed/Files/sbl_overal_attempts.png)
-![Screenshot of Stats by List Report-By Day](/Brightspeed/Files/brightspeed_listdetails_day.png)\
+![Screenshot of Stats by List Report-Overall by list](../Brightspeed/Files/sbl_overal_attempts.png)
+![Screenshot of Stats by List Report-By Day](../Brightspeed/Files/brightspeed_listdetails_day.png)\
 
 [Sql SPs List Stats by Day/Week/Overall](/Brightspeed/Files/Brspd_ListDetailsbyDay_week_overall.sql)\
 

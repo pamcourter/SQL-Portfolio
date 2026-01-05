@@ -1,6 +1,20 @@
 #Brightspeed Outbound Sales reports
+
 ###Task- Develop reports to contacts, sales, attempt counts etc for Brightspeed outbound sales.
 
 [Sql Code](/Brightspeed/Files/BRSPD_sql_sps.sql)
 
-![Screenshot of Stats by list report](/Brightspeed/Files/sbl_overal_attempts.png)
+![Screenshot of Stats by List Report-Overall by list](/Brightspeed/Files/sbl_overal_attempts.png)
+![Screenshot of Stats by List Report-By Day](/Brightspeed/Files/brightspeed listdetails day.png)
+![Screenshot of Sales MBBR in List Report](/Brightspeed/Files/sbl_salesdetails.png)
+
+
+###Description- Report to show product sales with overall quantity and price
+![Screenshot of Sales Product Details](/Brightspeed/Files/SaleDetails_products.png)
+
+###Report was requested to allow filtering by Record ID, Disposition of the call, or phone number to look up customer calls.
+![Screenshot of Call Details](/Brightspeed/Files/calldetails_filters.png)
+
+##Other Sql
+Screenshot of a query developed to randomly assign a percentage of leads to a selectiong of agents. This enabled us to only assign some leads for agents to call while keeping the other leads unassigned until needed. 
+![Screenshot of Stored Procedure for Assigning Agents](/Brightspeed/Files/brightspeed_assignagentsQuery.jpg)

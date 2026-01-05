@@ -1,0 +1,51 @@
+      declare @ListName varchar(50) = 'November25_Leads1'
+      declare @TotRows int , @percRows int
+     
+      select @TotRows = count(*) from leads_crm_test  
+      where leadlistname = @ListName and incontactagentid is null
+
+      set @percRows = 0.60*@TotRows ----what percent of rows do we want to assign?
+      print @percRows
+      --------Leads to assign-------------
+            select top (@percRows)* into #LeadsList
+                  from brightspeed.dbo.leads_crm_test  
+                  where leadlistname =@ListName and active =1
+                  and isnull(IncontactAgentID,0)= 0
+                  --and [state] not like 'NC'
+                  order by newID()
+      -----------Agents to assign---------
+            select * into #AgentsLIst 
+	    from brightspeed.dbo.Extensions
+            where active = 1 and isnull(assignleads,0) = 1
+                  and isnull(testOnly,0) = 0
+                  and SS <> 1
+
+      ----- Run until all leads from the leads list above have been assigned----------
+      while exists (
+			select Leadid
+                        from brightspeed.dbo.leads_crm_test  
+                        where leadid in (select leadid from #LeadsList )
+                              and   isnull(IncontactAgentID,0)= 0
+                   )                      
+           begin
+                   update brightspeed.dbo.leads_crm_test  
+                        set incontactAgentid = agentid 
+                   from
+                         brightspeed.dbo.leads_crm_test  leads
+                         Join
+                         (
+                           -----Randomly pairing leads and agents 1-1 (total number of agents= number of leads assigned per batch)-----
+                                SELECT AgentID, LeadID, lrn, arn
+                                FROM (
+                                          SELECT LeadID, ROW_NUMBER() OVER (ORDER BY NEWID()) AS lrn
+                                          FROM #LeadsList l                   
+                                     ) AS le
+                               JOIN (
+                                           SELECT agentid, ROW_NUMBER() OVER (ORDER BY NEWID()) AS arn
+                                           FROM #AgentsLIst  e
+                                    ) AS ag
+                                    ON le.lrn = ag.arn
+                          )randassign on leads.leadid = randassign.leadid                  
+                  where leads.leadid = randassign.leadid and leads.leadlistname = @ListName
+           end
+      DROP TABLE IF EXISTS #LeadsList, #AgentsList

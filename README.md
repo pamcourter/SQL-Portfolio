@@ -1,5 +1,5 @@
 # SQL-Portfolio
-Portfolio of my SQL projects
+My most recent Sql projects
 
 ### Projects 
 - [Brightspeed OB Sales](/Brightspeed/ReadMe.md)

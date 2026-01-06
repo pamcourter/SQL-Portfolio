@@ -12,21 +12,23 @@
 ![Screenshot of Sales MRR in List Report](..//Brightspeed/Files/sbl_salesdetails.png)
 [Sql sp for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
 
-##### I struggled with the attempts because I wasn't sure whether they wanted a total number of calls (attempts) made at the end of the period or if they wanted a sum of how many leads were at each attempt category (if a call was made twice, it would have 2 attempts that day, so attempts2 would be 1 for that phone number). I attempted both and compared with excel to ensure the counts were correct and presented both options to the operations director. 
+##### Attempts count was difficult to determine due to differing definitions but ultimately they wanted the attempts to match overall dial count for the time period selected.
 -----------------------------------------------------------------------------------------------------------------
 ### Report to show product sales with overall quantity and price
 
 ![Screenshot of Sales Product Details](..//Brightspeed/Files/SaleDetails_products.png)
 [SQL code for Sales Products](..//Brightspeed/Files/Brspd_SalesDetails.sql)
 
+##### Grouping data to show overall sales stats by LeadID but with a break down of products and quantity/price
 -----------------------------------------------------------------------------------------------------------------
 ### Report was requested to allow filtering by Record ID, Disposition of the call, or phone number to look up customer calls.
 
 ![Screenshot of Call Details](..//Brightspeed/Files/calldetails_filters.png)
 [SQL code for Call Details](../Brightspeed/Files/Brspd_CallDetails.sql)
 
-#### I included the filters in the report parameters in order to bypass them (parameter = null) if no filter was selected.
+##### I included the filters in the report parameters in order to bypass them (parameter = null) if no filter was selected.
 -----------------------------------------------------------------------------------------------------------------
 ## Other Sql
-Screenshot of a query developed to randomly assign a percentage of leads to a selectiong of agents. This enabled us to only assign some leads for agents to call while keeping the other leads unassigned until needed. 
+Screenshot of a query I developed to randomly assign a percentage of leads to a selectiong of agents. This enabled us to only assign some leads for agents to call while keeping the other leads unassigned until needed. The task required a temporary table to hold a subset of leads to prevent needing to define the leads subset multiple times throughout the query. I used AI to help determine how to randomly match each item in the subset of leads to a random agent and then looped through the lead list subset so that each agent was assigned  around the same number of leads. 
+
 ![Screenshot of Stored Procedure for Assigning Agents](..//Brightspeed/Files/brightspeed_assignagentsQuery.jpg)

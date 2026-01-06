@@ -1,4 +1,4 @@
-# SQL-Portfolio
+# SQL-Projects
 My most recent Sql projects
 
 ### Projects 

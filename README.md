@@ -12,5 +12,4 @@ My most recent Sql projects
 
 
 
-### Home Profile 
-https://pamcourter.github.io/pamcourter/
+[Pam Courter Home](https://pamcourter.github.io/pamcourter/)

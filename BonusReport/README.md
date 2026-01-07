@@ -25,7 +25,7 @@
 
 #### As part of the import process, I found that the dates were not coming across correctly on one file so I added a line in the import stored procedure to transform that date field into a proper date/time format. 
 -----------------------------------
-![Transformation Import query](../BonusReport/import_query_date_conversion.png)
+![Transformation Import query](../BonusReport/import_query_date_conversion.jpg)
 -----------------------------------
 
 #### Stored procedure code for importing the data and for the bonus report data. 

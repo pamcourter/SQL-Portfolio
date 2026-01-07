@@ -1,6 +1,6 @@
 # Bonus Report
 #### TASK 
-The WFM team has asked me to replicate this report that they have been creating by manually downloading and transforming data and copying into this excel spreadsheet where formulas complete the calculations. This task takes hours complete every week and even the smallest mis-alignment of data entry results in hard to detect errors. ![Report to Replicate](../BonusReport_toReplicate.png)
+The WFM team has asked me to replicate this report that they have been creating by manually downloading and transforming data and copying into this excel spreadsheet where formulas complete the calculations. This task takes hours complete every week and even the smallest mis-alignment of data entry results in hard to detect errors. ![Report to Replicate](../BonusReport/BonusReport_toReplicate.png)
 
 While we were not given access to these reports, the WFM team sent them to me in Excel via email. Using an inhouse process to collect the reports from email and import to the SQL server, I set up the process parameters and import/update stored procedures to transform the data as needed and upload to the sql server tables. From there I prepared SQL stored procedures to be used by SSRS reporting to generate a similar report. 
 

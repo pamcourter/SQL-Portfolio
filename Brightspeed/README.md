@@ -5,13 +5,13 @@
 ![Screenshot of Stats by List Report-Overall by list](../Brightspeed/Files/sbl_overal_attempts.png)
 ![Screenshot of Stats by List Report-By Day](../Brightspeed/Files/brightspeed_listdetails_day.png)
 
-[Sql SPs List Stats by Day/Week/Overall](..//Brightspeed/Files/Brspd_ListDetailsbyDay_week_overall.sql)
+[Sql Code for List Stats by Day/Week/Overall](..//Brightspeed/Files/Brspd_ListDetailsbyDay_week_overall.sql)
 
 ##### Attempts count was difficult to determine due to differing definitions but ultimately they wanted the attempts to match overall dial count for the time period selected.
 ------------------------------------------
 #### Show Sales counts and MRR 
 ![Screenshot of Sales MRR in List Report](..//Brightspeed/Files/sbl_salesdetails.png)
-[Sql sp for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
+[Sql Code for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
 
 
 -----------------------------------------------------------------------------------------------------------------
@@ -30,6 +30,7 @@
 ##### I included the filters in the report parameters in order to bypass the filter (parameter = null) and show all rows if  no filter was selected.
 -----------------------------------------------------------------------------------------------------------------
 ### Lead Reassignment query
-##### Screenshot of a query I developed to randomly assign a percentage of leads to a selectiong of agents. This enabled us to only assign some leads for agents to call while keeping the other leads unassigned until needed. The task required a temporary table to hold a subset of leads to prevent needing to define the leads subset multiple times throughout the query. I used AI to help determine how to randomly match each item in the subset of leads to a random agent and then looped through the lead list subset so that each agent was assigned  around the same number of leads. 
+##### Screenshot of a query I developed to randomly assign a percentage of leads to a selectiong of agents.
+This enabled us to only assign some leads for agents to call while keeping the other leads unassigned until needed. The task required a temporary table to hold a subset of leads to prevent needing to define the leads subset multiple times throughout the query. I used AI to help determine how to randomly match each item in the subset of leads to a random agent and then looped through the lead list subset so that each agent was assigned  around the same number of leads. 
 
 ![Screenshot of Stored Procedure for Assigning Agents](..//Brightspeed/Files/brightspeed_assignagentsQuery.jpg)

@@ -11,4 +11,4 @@ My most recent Sql projects
 
 
 #### Check out my  home profile and see my other portfolios here
-[Pam Courter Home](https://pamcourter.github.io/pamcourter/)
+[Pam Courter Home](../../pamcourter/)

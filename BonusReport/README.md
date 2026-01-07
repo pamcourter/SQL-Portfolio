@@ -11,7 +11,7 @@
 ---------------------------------
 ![New Bonus report with excel code](../BonusReport/pbb_bonus_excelcode.png) 
 ---------------------------------
-###### Problem- some of the data needed for the report was from manually tracked data that still needed pasted in after the report was ran, so I created formulas to incorporate the data they added manually into the final report calculations. The areas that needed data pasted in were also formatted light green. Once the ssrs report was downloaded as an excel file and the data was added in, the formula was activated to incorporate those values. Some additional benefits to using ssrs included a single source file that could be downloaded again if mistakes were made as well as easily making changes to the calculations in one place rather than updating any individual copies. 
+###### Problem- some of the data needed for the report was from manually tracked data that still needed pasted in after the report was ran, so I created formulas to incorporate the data they added manually into the final report calculations. The areas that needed data pasted in were also formatted light gray. Once the ssrs report was downloaded as an excel file and the data was added in, the formula was activated to incorporate those values. Some additional benefits to using ssrs included a single source file that could be downloaded again if mistakes were made as well as easily making changes to the calculations in one place rather than updating any individual copies. 
 
 ### Final resulting report with added in formulas
 -------------------------------------

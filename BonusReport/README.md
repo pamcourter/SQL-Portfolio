@@ -15,7 +15,7 @@ Problem- some of the data needed for the report was from manually tracked data t
 
 #### Final resulting report with added in formulas
 -------------------------------------
-![Final Report](../BonusReport/BonusReport_After with excel formula.png)
+![Final Report](../BonusReport/BonusReport_After_with_excel_formula.png)
 -------------------------------------
 
 #### To further prevent errors and help future employees use the report, I included a directions sheet within the report. 
@@ -25,7 +25,7 @@ Problem- some of the data needed for the report was from manually tracked data t
 
 #### As part of the import process, I found that the dates were not coming across correctly on one file so I added a line in the import stored procedure to transform that date field into a proper date/time format. 
 -----------------------------------
-![Transformation Import query](../BonusReport/import query_date conversion.jpg)
+![Transformation Import query](../BonusReport/import query_date conversion.png)
 -----------------------------------
 
 #### Stored procedure code for importing the data and for the bonus report data. 

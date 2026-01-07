@@ -2,5 +2,5 @@
 My most recent Sql projects
 
 ### Projects 
-- [OB Sales](../BonusReport)
+- [OB Sales](/BonusReport)
 - [Bonus Report](../BonusReport)

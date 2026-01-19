@@ -11,7 +11,7 @@
 ------------------------------------------
 #### Show Sales counts and MRR 
 ![Screenshot of Sales MRR in List Report](..//Brightspeed/Files/sbl_salesdetails.png)
-[Sql Code for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
+![Sql Code for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
 
 
 -----------------------------------------------------------------------------------------------------------------

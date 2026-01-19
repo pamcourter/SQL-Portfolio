@@ -28,6 +28,5 @@
 ![Transformation Import query](../BonusReport/import_query_date_conversion.jpg)
 -----------------------------------
 
-#### SQL Stored procedure code for the bonus report and also data import code. 
-----------------------------------
-[Download Stored Procedures](../BonusReport/pbb_bonuses_sqlSP.sql)
+
+[Download Stored Procedures](../BonusReport/pbb_bonuses_sqlSP.sql)  SQL Stored procedure code for the bonus report and also data import code. 

@@ -5,7 +5,7 @@
 ![Screenshot of Stats by List Report-Overall by list](../Brightspeed/Files/sbl_overal_attempts.png)
 ![Screenshot of Stats by List Report-By Day](../Brightspeed/Files/brightspeed_listdetails_day.png)
 
-[Sql Code for List Stats by Day/Week/Overall](..//Brightspeed/Files/Brspd_ListDetailsbyDay_week_overall.sql)
+[Download Sql Code for List Stats by Day/Week/Overall](..//Brightspeed/Files/Brspd_ListDetailsbyDay_week_overall.sql)
 
 ##### Attempts count was difficult to determine due to differing definitions but ultimately they wanted the attempts to match overall dial count for the time period selected.
 ------------------------------------------

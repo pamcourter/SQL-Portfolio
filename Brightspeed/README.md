@@ -11,21 +11,21 @@
 ------------------------------------------
 #### Show Sales counts and MRR 
 ![Screenshot of Sales MRR in List Report](..//Brightspeed/Files/sbl_salesdetails.png)
-![Sql Code for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
+[Download Sql Code for Sale details in List stats report](../Brightspeed/Files/Brspd_SalesSummary.sql)
 
 
 -----------------------------------------------------------------------------------------------------------------
 ### Report to show product sales with overall quantity and price
 
 ![Screenshot of Sales Product Details](..//Brightspeed/Files/SaleDetails_products.png)
-[SQL code for Sales Products](..//Brightspeed/Files/Brspd_SalesDetails.sql)
+[Download SQL code for Sales Products](..//Brightspeed/Files/Brspd_SalesDetails.sql)
 
 ##### Grouping data to show overall sales stats by LeadID but with a break down of products and quantity/price
 -----------------------------------------------------------------------------------------------------------------
 ### Report requirements to allow filtering by Record ID, Disposition, or phone number to look up customer calls.
 
 ![Screenshot of Call Details](..//Brightspeed/Files/calldetails_filters.png)
-[SQL code for Call Details](../Brightspeed/Files/Brspd_CallDetails.sql)
+[Download SQL code for Call Details](../Brightspeed/Files/Brspd_CallDetails.sql)
 
 ##### I included the filters in the report parameters in order to bypass the filter (parameter = null) and show all rows if  no filter was selected.
 -----------------------------------------------------------------------------------------------------------------
